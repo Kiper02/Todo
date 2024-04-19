@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #0D0714;
+    overflow-x: hidden;
+}
+
+
+input{
+    width: 432px;
+    height: 40px;
+    background-color: #0D0714;
+    border-radius: 10px;
+    border: none;
+    border: 1px solid #3E1671;
+    outline: none;
+    color: rgb(137, 139, 141);
+    padding-left: 10px;
+    font-size: 17px;
+}
+
+
+button {
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+    border: none;
+    background-color: #9E78CF;
+    margin-left: 11px;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0n auto;
+}
+
+li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 22px 21px;
+    background-color: #15101C;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.536);
+}
+
+.component {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.check {
+    margin-right: 5px;
+}
+
+.completed {
+    position: relative;
+    width: 100vw;
+    height: 500px;
+    
+}
+
+.completedtusk {
+    position: absolute;
+    bottom: -450px;
+    border-top: 1px solid #3E1671;
+    height: 100px;
+    width: 100vw;
+    height: 500px;
+}
+
+.lisuccess {
+    max-width: 1325px;
+    text-decoration: line-through;
+}
